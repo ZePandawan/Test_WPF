@@ -11,8 +11,8 @@
             <ColumnDefinition Width="13*"/>
             <ColumnDefinition Width="387*"/>
         </Grid.ColumnDefinitions>
-        <Label Name="TestLabel" Margin="51,294,-77,-294" Grid.Column="1">Test</Label>
+        <Label Name="TestLabel" Margin="2,151,-28,-151" Grid.Column="1">Test</Label>
         <TextBox Name="firstName" Margin="2,33,28,288" Grid.Column="1"/>
-        <Button Name="submit" Margin="310,158,336,217" Click="submit_Click" Grid.Column="1">Je suis un bouton</Button>
+        <Button Name="submit" Margin="310,238,336,137" Click="submit_Click" Grid.Column="1">Je suis un bouton</Button>
     </Grid>
 </Window>
