@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using MySql.Data.MySqlClient;
+
 namespace Test_WPF
 {
     /// <summary>
@@ -27,7 +29,7 @@ namespace Test_WPF
 
         private void submit_Click(object sender, RoutedEventArgs e)
         {
-            var openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
+            /*var openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
             openFileDialog1.Filter = "Images (.jpeg)(.jpg)|*.jpg|Images (.png)|*.png";
             openFileDialog1.Title = "Choix photo";
             openFileDialog1.DefaultExt = ".jpg";
@@ -36,6 +38,9 @@ namespace Test_WPF
                 var test = openFileDialog1.FileName;
                 TestLabel.Content = test;
             }
+            */
+
+
         }
     }
 }
